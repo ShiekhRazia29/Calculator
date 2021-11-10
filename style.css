@@ -1,0 +1,52 @@
+* , *::before, *,::after{
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+h1{
+  color: rgb(23, 43, 80);
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  height: 600px;
+  width: 30%;
+  margin: auto;
+  background-color: rgb(12, 11, 11);
+  border: 5px solid rgb(133, 129, 129);
+}
+table{
+  width: 100%;
+}
+td{
+  width: 25%;
+}
+button{
+  width: 100%;
+  background-color: black;
+  color: white;
+  height:90px ;
+  font-size: 30px;   
+}
+input{
+  width: 95%;
+  height: 100px;
+  background-color: gray;
+  margin-top: 20 px;
+  font-size: 30px;
+  text-align: right;
+  padding-right:20px ;
+  font-weight: 700;
+}
+@media(max-width:736px){
+  .container{
+      height: 600px;
+      width: 90%;
+      margin: auto;
+      background-color: rgb(223, 217, 217);
+      border: 5px solid rgb(88, 84, 84);
+  }
+  
+  
+}
